@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+    background-color: #E7E5E2;
+    font-family: 'Poppins', sans-serif;
+    color: #23403C;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Button */
+  .btn-outline-success {
+    background-color: transparent;
+    border: 2px solid #6C8577;
+    color: #6C8577;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: all 0.4s ease;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #6C8577;
+    color: #E7E5E2;
+  }
+  
+  /* Table */
+  .table {
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(76, 112, 116, 0.2);
+    margin-top: 40px;
+    color: #23403C;
+  }
+  
+  .table thead {
+    background-color: #4D7174;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 16px;
+    font-size: 16px;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #6C8577;
+    box-shadow: 0 8px 30px rgba(35, 64, 60, 0.3);
+  }
+  
+  .modal-header {
+    background-color: #ABC1BD;
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    font-weight: 700;
+    color: #23403C;
+    font-size: 24px;
+  }
+  
+  .modal-body {
+    background-color: #E7E5E2;
+    padding: 30px;
+  }
+  
+  /* Form Controls */
+  .form-group label {
+    font-weight: 600;
+    color: #23403C;
+    margin-bottom: 6px;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #6C8577;
+    background-color: #ffffff;
+    transition: 0.3s;
+  }
+  
+  .form-control:focus {
+    border-color: #4D7174;
+    background-color: #ABC1BD;
+    box-shadow: 0 0 10px #4D7174;
+  }
+  
+  /* Submit Button */
+  #btn {
+    background: linear-gradient(135deg, #6C8577, #8CA19A);
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+  }
+  
+  #btn:hover {
+    background: linear-gradient(135deg, #4D7174, #23403C);
+    color: #E7E5E2;
+  }
+  
+  /* Modal Close Button */
+  .close {
+    color: #23403C;
+    font-size: 30px;
+    opacity: 1;
+  }
+  
+  .close:hover {
+    color: #6C8577;
+  }
+  
+  /* Table Row Hover */
+  tbody tr:hover {
+    background-color: #ABC1BD;
+    cursor: pointer;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .btn-outline-success {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+  
